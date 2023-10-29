@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Color flipper</title>
+    <link rel="stylesheet" href="hex_style/style.css">
+    <link rel="stylesheet" href="hex_style/media-query.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <h4>Color flippper</h4>
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html" target="_self" rel="prev">Simple</a>
+                </li>
+                <li>
+                    <a href="#">hex colors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Background color:</h2>
+            <span class="color"></span>
+            <abbr title="Mudar de cor"><button class="change_color_button" id="change_color_button_hex">Mudar cor</button></abbr>
+            <abbr title="Copiar cor"><button class="button_clipboard" id="button_clipboard_hex">Copiar cor</button></abbr>
+        </div>
+    </main>
+    <script src="hex_script/hex.js"></script>
+</body>
+</html>

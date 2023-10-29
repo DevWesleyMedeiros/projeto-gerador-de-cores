@@ -1,0 +1,15 @@
+@media screen and (max-width: 300px) {
+    .nav-center {
+        flex-direction: column;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-center h1 {
+        margin: 10px 0px;
+    }
+    .nav-center ul li { 
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sedgwick Ave';
+}
+html, body{
+    height: 100%;
+    color: #000;
+    background-color: #52020D;
+}
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #A8C480;
+    box-shadow: 1px 1px 2px black;
+}
+.nav-center ul {
+    list-style-type: none;
+}
+.nav-center > ul > li {
+    display: inline;
+    margin: 10px 10px;
+}
+.nav-center a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+}
+.nav-center .links:hover {
+    background-image: linear-gradient(to right, #A78F8A,  #b17e73, #bf877c);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    min-height: 200px;
+    height: auto; 
+    font-family: 'Sedgwick Ave';
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+.container h2 {
+    text-align: center;
+    margin: auto;
+}
+.container .change_color_button_normal_colors, .copy_normal_colors {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+img {
+    width: 25px;
+    height: 25px;
+}

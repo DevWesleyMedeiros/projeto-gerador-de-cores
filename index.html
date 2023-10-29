@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Color flipper</title>
+    <link rel="stylesheet" href="normal_colors_style/style.css">
+    <link rel="stylesheet" href="normal_colors_style/media_query.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <h1>Color flippper</h1>
+            <ul class="nav-links">
+                <li>
+                    <abbr title="Arquivo cores.pdf"><a href="assets_arquivos/cores-hexadecimais.pdf" download="cores-hexadecimais"><img src="assets_arquivos/icone-pdf.png" alt="icone-pdf"></a></abbr>
+                </li>
+                <li>
+                    <a class="links" href="#">Simple</a>
+                </li>
+                <li>
+                    <a class="links" href="hex_colors_page/index.html" target="_self" rel="next">Hex colors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Background color:</h2>
+            <span class="color"></span>
+            <abbr title="Mudar de cor"><button class="change_color_button_normal_colors" id="change_color_button_normal_colors">Mudar cor</button></abbr>
+            <abbr title="Copiar"><button class="copy_normal_colors" id="copy_normal_colors">Copiar cor</button></abbr>
+        </div>
+    </main>
+    <script src="normal_colors_scripts/app.js"></script>
+</body>
+</html>
